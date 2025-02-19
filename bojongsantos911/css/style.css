@@ -1,0 +1,112 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../bg1.jpg);
+    background-size: cover;
+
+}
+
+.box {
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 10px rgb(0, 0, 0, .2);
+}
+
+.header {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    padding: 40px 30px;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.headerr {
+  background-image: url(bg1.jpg);
+  background-size: cover;
+  padding: 2px 30px;
+  color: white;
+  border-radius: 15px 15px 0 0;
+
+}
+
+
+.login-area {
+    text-align: center;
+    padding: 50px 50px 30px 50px;
+    background: rgba(246, 246, 246, 0.43);
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(6, 6, 6, 0.28);
+}
+
+
+.username,
+.password {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #bcd3e9 ;
+    margin-bottom: 15px;
+    transition: 5s;
+}
+
+.username::placeholder,
+.password::placeholder {
+    color: rgb(255, 254, 254);
+}
+
+.username:focus,
+.password:focus {
+    background-color: #014280 
+}
+
+.submit {
+    width: 150px;
+    padding: 10px;
+    background-color: #014280; 
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #1f0344;
+}
+
+.a {
+    display: block;
+    font-size: x-small;
+    text-decoration: none;
+    color: #014280; 
+    margin-top: 10px;
+}
+
+a, a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: #014280; 
+}
